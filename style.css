@@ -3,6 +3,7 @@
 body {
   margin: 0;
   font-family: "Source Sans Pro", sans-serif;
+  box-sizing: border-box;
 }
 
 .header {
@@ -35,4 +36,36 @@ body {
 
 .nav li {
   margin-left: 25px;
+}
+
+.hero {
+  background-color: #c5cae9;
+  padding: 60px 45px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-inner {
+  max-width: 760px;
+}
+
+.hero h1 {
+  font-weight: normal;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.btn {
+  background-color: #3949ab;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1.18rem;
+  display: inline-block;
 }
